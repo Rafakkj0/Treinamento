@@ -1,0 +1,9 @@
+section{
+    background-color: bisque;
+    width: 400px;
+    text-align: center;
+    border: chocolate 7px solid;
+    border-radius: 10px;
+body{
+    background-color: antiquewhite;
+}
