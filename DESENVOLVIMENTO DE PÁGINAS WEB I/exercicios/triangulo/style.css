@@ -1,0 +1,21 @@
+.triangulo{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid red;
+    position: relative;
+}
+.triangulo2{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid white;
+    position:absolute;
+    top: 10px;
+    left: -50px;
+}
+body{
+    background-color: beige;
+}
