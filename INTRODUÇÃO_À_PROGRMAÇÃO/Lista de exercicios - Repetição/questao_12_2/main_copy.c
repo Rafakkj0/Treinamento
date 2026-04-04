@@ -5,7 +5,7 @@
 int main(){
     setlocale(LC_ALL, "Portuguese_Brazil");
 
-    float nota1, nota2, nota3, somaNotas = 0, somaNotasAlunos = 0;
+    float nota1, nota2, nota3, somaNotas = 0, somaNotasAlunos = 0, somaMediaAlunos = 0;
     int codigo, contadorAlunos = 0;
     
     while(1){
@@ -30,12 +30,12 @@ int main(){
         somaNotas += nota3;
         
         contadorAlunos++;
-        somaNotasAlunos+=somaNotas;
+        somaMediaAlunos+=somaNotas / 3.0;
 
-        printf("\nMédias de notas do aluno de código %d: %f\n\n", codigo, somaNotas / 3.0);
+        printf("\nMédias de notas do aluno de código %d: %.2f\n\n", codigo, somaNotas / 3.0);
     }
     if(contadorAlunos > 0){
-        printf("\nMédia da turma: %f\n\n", somaNotasAlunos / (contadorAlunos * 3.0));
+        printf("\nMédia da turma: %.2f\n\n", somaMediaAlunos / contadorAlunos);
     }
     return 0;
 }
