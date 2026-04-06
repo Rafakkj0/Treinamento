@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+}
+.background_form{
+    width: 450px;
+    height: 650px;
+    margin: 50px auto;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: black 5px 5px 10px;
+}
+header{
+    text-align: center;
+    font-size: 40px;
+    line-height: 100px;
+    font-family: "Zain";
+}
+.formulario{
+    width: 400px;
+    margin: 0 auto;
+}
+.input_title{
+    font-family: "Zain";
+    font-size: 20px;
+    margin-top: 20px;
+}
+input{
+    border: 0px;
+    width: 370px;
+    background-color: whitesmoke;
+    font-family: "Quicksand";
+    font-weight: 400;
+    font-size: 15px;
+    outline: none;
+}
+label{
+    border-bottom: 1px rgb(43, 43, 43) solid;
+    display: flex;
+    gap: 8px;
+}
+.esqueceu_senha{
+    text-align: right;
+    margin-top: 10px;
+}
+.esqueceu_senha a {
+    font-family: "Quicksand";
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(0, 75, 155);
+}
+.esqueceu_senha a:hover{
+    text-decoration: underline;
+}
+.botao_entrar{
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+
+    font-family: "Zain";
+    font-size: 20px;
+    line-height: 50px;
+
+    background: linear-gradient(90deg, #00ffff 0%, #ff00ff 100%);
+    border: 0px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 0px #999;
+    
+}
+.botao_entrar:active{
+    margin-top: 24px;
+    box-shadow: 0px 0px 0px;
+    margin-bottom: -4px;
+}
+.login_outros{
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Quicksand";
+    font-weight: 400;
+    font-size: 15px;
+}
+.apps{
+    display: inline-flex;
+    gap: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
