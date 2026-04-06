@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(background.jpg);
+}
+.background_form{
+    width: 400px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    margin: 100px auto;
+    border-radius: 20px;
+}
+header{
+    font-size: 30px;
+    font-family: "Nunito";
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+    line-height: 80px;
+    margin-bottom: 50px;
+}
+.form{
+    width: 350px;
+    margin: 0 auto;
+}
+input{
+    border: black 0px;
+    font-family: "Montserrat";
+    font-weight: 300;
+    width: 320px;
+}
+.label{
+    position: relative;
+    border-bottom: 1px rgb(105, 105, 105) solid;
+    width: 100%;
+    margin-top: 35px;
+}
+.title_input{
+    margin-bottom: 10px;
+    font-family: "Nunito";
+}
+.esqueceu_senha{
+    color: black;
+    font-family: "Montserrat";
+    font-weight: 200;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 4px;
+    text-align: right;
+}
+.login{
+    margin-top: 30px;
+    width: 350px;
+    height: 40px;
+    background: linear-gradient(90deg, #00FFFF, #FF00E6);
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    font-family: "Nunito";
+    font-weight: 600;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.outras_opcoes{
+    text-align: center;
+    margin-top: 40px;
+    font-family: "Montserrat";
+}
+.circulo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.facebock{
+    background-color: #1f7bf2;
+}
+.x{
+    background-color: black;
+}
+.google{
+    background-color: #db503c;
+}
